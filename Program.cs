@@ -48,7 +48,18 @@ namespace ConsoleApplication
                 System.Console.WriteLine(author);
             }
         }
-     
+        class Content
+        {
+            string content;
+            public Content(string c)
+            {
+                content=c;
+            }
+            public void Show()
+            {
+                System.Console.WriteLine(content);
+            }
+        }
     class Program
     {
         static void Main(string[] args)
