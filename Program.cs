@@ -24,6 +24,31 @@ namespace ConsoleApplication
             content.Show();
         }
     }
+        class Title
+        {
+            string title;
+            public Title(string t)
+            {
+                title=t;
+            }
+            public void Show()
+            {
+                System.Console.WriteLine(title);
+            }
+        }
+        class Author
+        {
+            string author;
+            public Author(string a)
+            {
+                author=a;
+            }
+            public void Show()
+            {
+                System.Console.WriteLine(author);
+            }
+        }
+     
     class Program
     {
         static void Main(string[] args)
